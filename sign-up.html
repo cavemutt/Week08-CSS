@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/logo.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign Up with Awesome Sauce!</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.jpg" alt="AwesomeSauce Company Logo" class="header__logo-img logo-img">
+        <nav class="long-nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sign-up.html">Sign Up</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="callout" id="top">
+            <div class="callout__company-container">
+                <img src="./assets/logo.jpg" alt="AwesomeSauce Company Logo" class="logo-img">
+                <h2>Join<br><span>The AwesomeSauce Company</span></h2>
+            </div>
+            <div class="comparison-container">
+                <div class="neg">
+                    <img src="./assets/regular-sauce.jpg" alt="bottles of regular boring sauce" title="Photo by BBiDDac on Unsplash" class="reg-sauce-img">
+                    <img src="./assets/ew.jpg" alt="child giving thimbs down" class="thumbs-down-img">
+                </div>
+                <div class="comparison__text">
+                    <h3>Regular, boring sauce?</h3>   
+                    <h3>Or <span class="awesomesauce-text"><em>AwesomeSauce!</em></span></h3>
+                </div>
+                <div class="pos">
+                    <img src="./assets/sauce-bottle.jpg" alt="a bottle of AwesomeSauce" title="Photo by Chris Liverani on Unsplash" class="awesomesauce-img">
+                    <img src="./assets/thumbs-up.jpg" alt="woman giving thumbs up" class="thumbs-up-img">
+                </div>
+            </div>
+        </section>
+        <section class="sign-up-container">
+            <h2>Sign Up Now!</h2>
+            <form autocomplete="on">
+                <fieldset class="form-group">
+                  <legend> You may now become one with AwesomeSauce </legend>
+                  <label for="name">Enter Name:</label>
+                  <input required type="text" id="name" name="name"><br>
+                  <label for="email">Enter Email:</label>
+                  <input required type="email" id="email" name="email""><br>
+                  <label for="eye-color">Eye Color:</label>
+                  <input required type="color" value="#06f9f9" id="eye-color" name="eye-color"><br>
+                  <label for="pets">Pets:</label><br>
+                  <input type="checkbox" id="cats1" name="cats1">
+                  <label for="cats1">I have cats</label><br>
+                  <input type="checkbox" id="cats2" name="cats2">
+                  <label for="cats2">I have dogs</label><br>
+                  <input type="checkbox" id="cats3" name="cats3">
+                  <label for="cats">I have captive wildlife</label><br>
+                  <input type="checkbox" id="other-pets" name="other-pets">
+                  <label for="other-pets">I have no pets <span>(non-pet owners are strongly encouraged to acquire a pet in order to be awesomesauce : the more the better)</span></label><br>
+                  <fieldset id="car-group">
+                      <legend>Car you drive:</legend>
+                      <div>
+                          <input type="radio" id="car1" name="car-group">
+                          <label for="car1">EV</label>
+                      </div>
+                      <div>
+                          <input type="radio" id="car2" name="car-group">
+                          <label for="car2">Gas Guzzler</label>
+                      </div>
+                      <div>
+                          <input type="radio" id="car3" name="car-group">
+                          <label for="car3">Limousine(passenger)</label><br>
+                      </div>
+                  </fieldset>
+                  <label for="favorite-date">Favorite Date:</label>
+                  <input type="date" id="favorite-date" name="lottery numbers"><br>
+                  <label for="awesomesauceness">Current level of awesomesauceness in your life:</label>
+                  <input type="range" id="awesomesauceness" min="0" max="100" step="10"><br>
+                  <textarea placeholder="your words of wisdom"></textarea><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form> 
+            <img src="./assets/sauce-drops.jpg" alt="many drops of awesomesauce" title="Photo by NordWood Themes on Unsplash">
+        </section>
+    </main>
+    <button class="to-top-btn"><a class="to-top-a" href="#top">to<br>top<br>&uarr;</a></button>
+
+    <footer>
+        <p>&copy2023 The AwesomeSauce Company<br><span>*This is a parody website. The AwesomeSauce Company is completely fake. Any resemblance to a real company or website is completely unintentional.</span></p>
+    </footer>
+    
+</body>
+</html>
